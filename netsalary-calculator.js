@@ -1,8 +1,8 @@
 function calculateSalary (basicSalary, benefits){
   // const for rates//
-  const nhifRate = 0.1;
-  const taxRate = 0.2;
-  const nssfRate = 0.05;
+  const nhifRate = 0.03;
+  const taxRate = 0.0432;
+  const nssfRate = 0.06;
 
 // salary before any deductions are done//
   const grossSalary = basicSalary + benefits
